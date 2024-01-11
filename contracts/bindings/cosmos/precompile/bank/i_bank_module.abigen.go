@@ -448,7 +448,7 @@ func (it *BankModuleBurnIterator) Next() bool {
 	}
 }
 
-// Error returns any retrieval or parsing error occurred during filtering.
+// Error returns any retrieval or parsing error that occurred during filtering.
 func (it *BankModuleBurnIterator) Error() error {
 	return it.fail
 }
@@ -593,7 +593,7 @@ func (it *BankModuleCoinReceivedIterator) Next() bool {
 	}
 }
 
-// Error returns any retrieval or parsing error occurred during filtering.
+// Error returns any retrieval or parsing error that occurred during filtering.
 func (it *BankModuleCoinReceivedIterator) Error() error {
 	return it.fail
 }
